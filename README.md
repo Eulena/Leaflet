@@ -24,4 +24,4 @@ In this project, I have created a map using leaflet that plots earthquakes happe
 
 
 #### Images (screenshot):
-![earthquake](Images/earthquake.png)
+![earthquake](images/earthquake.png)
