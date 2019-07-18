@@ -23,5 +23,5 @@ In this project, I have created a map using leaflet that plots earthquakes happe
 * https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
 
 
-#### Images (screenshot):
+#### Image (screenshot):
 ![earthquake](images/map_earthquake.png)
