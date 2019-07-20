@@ -49,7 +49,7 @@ function createMap(earthquakes) {
 
   // Define lightmap, outdoorsmap, and satelliemap layers
   let mapboxUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}';
-  let accessToken = 'pk.eyJ1IjoiY2FwMDE1NzAwIiwiYSI6ImNqZng1ZjBhbjQxMWozM21kZzkzNW1kdjAifQ.VdaKJu8FPaDob9yWS4kTSw';
+  let accessToken = 'pk.eyJ1IjoibW9uaWNhMTIxMiIsImEiOiJjanhobTM1YjAwaDVnM3lwcWk4bzk1MW4wIn0.AR0wcFIScZee-JiVccSjqQ';
   let lightmap = L.tileLayer(mapboxUrl, {id: 'mapbox.light', maxZoom: 20, accessToken: accessToken});
   let outdoorsmap = L.tileLayer(mapboxUrl, {id: 'mapbox.run-bike-hike', maxZoom: 20, accessToken: accessToken});
   let satellitemap = L.tileLayer(mapboxUrl, {id: 'mapbox.streets-satellite', maxZoom: 20, accessToken: accessToken});
